@@ -1,0 +1,12 @@
+.ActiveName {
+    max-width: 570px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #43FFD2;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}

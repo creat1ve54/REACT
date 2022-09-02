@@ -1,0 +1,18 @@
+.Cards {
+  max-width: 855px;
+  width: 100%;
+}
+
+.Cards__body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Cards__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}

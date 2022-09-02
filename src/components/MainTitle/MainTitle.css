@@ -1,0 +1,61 @@
+.mainTitle__pages {
+  margin-bottom: 23px;
+}
+
+.mainTitle__page {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.mainTitle__page--modification {
+  margin-left: 14px;
+  position: absolute;
+}
+
+.mainTitle__page--modification::before {
+  content: '/';
+  position: relative;
+  right: 7px;
+}
+
+
+.mainTitle__case {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 15px 11px 20px 20px;
+  max-width: 920px;
+  height: 534px;
+}
+
+.mainTitle__title {
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 121px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 59px;
+}
+
+
+.mainTitle__title--modification {
+  margin-left: 258px;
+}
+
+.mainTitle__description {
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  max-width: 430px;
+  padding-left: 5px;
+}

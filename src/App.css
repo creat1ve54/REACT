@@ -1,0 +1,17 @@
+.app__body {
+    background-color: black;
+    background-image: url('../src/image/bg-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app__flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.app__article {
+    display: flex;
+    justify-content: space-between;
+}

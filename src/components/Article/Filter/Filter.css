@@ -1,0 +1,72 @@
+.Filter {
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    max-width: 255px;
+    max-height: 818px;
+    padding: 20px 15px 30px 15px;
+}
+
+.Filter__title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #43FFD2;
+}
+
+.Filter__item {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.Filter__text {
+    margin-left: 6px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.Filter__item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.Filter__item:last-child {
+    margin-bottom: 20px;
+}
+
+.Filter__btn button {
+    padding: 16px 50px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background-color: inherit;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+
+.Filter__btn button:hover{
+    background-color: #43FFD2;
+    color: #040A0A;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+
+.Filter__btn button:active{
+    box-shadow: inset 0px 0px 10px #01281F;
+    transition: box-shadow 0.1s ease-in-out,
+}

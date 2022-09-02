@@ -1,0 +1,12 @@
+.Rating {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 11px 141px 11px 20px;
+}
